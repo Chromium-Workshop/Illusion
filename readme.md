@@ -1,5 +1,5 @@
 # Illusion
-Illusion is the offical CW Unblocker
+Offical CW Unblocker
 
 ## Features
 v2 coming soon. adds **SO** much more
