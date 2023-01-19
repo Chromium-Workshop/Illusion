@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bad Apple</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid">
+            <script>  
+                const fragment = document.createDocumentFragment();
+                for (let i = 0; i < 36; i++) {
+                    let row_div = document.createElement('div');
+                    row_div.setAttribute('id', `row-${i}`)
+                    for (let j = 0; j < 48; j++) {
+                        let placeholder = document.createElement('div');
+                        placeholder.innerHTML = `<input type="checkbox" class="custom-checkbox" id="${i}-${j}">`;
+                        let node = placeholder.firstElementChild;
+                        row_div.appendChild(node);
+                    }
+                    fragment.appendChild(row_div);
+                }
+                let grid = document.getElementsByClassName('grid')[0];
+                grid.appendChild(fragment);
+            </script>
+        </div>
+        <div class="controls">
+            <audio id="audio" controls preload="none">
+                <source src="badapple.mp3" type="audio/mpeg">
+            </audio>
+            <!-- <audio id="audio" controls>
+                <source src="badapple.wav" type="audio/x-wav">
+            </audio> -->
+        </div>
+    </div>
+</body>
+
+</html>
