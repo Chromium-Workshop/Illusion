@@ -1,6 +1,6 @@
 # Illusion
 - Offical CW Unblocker
-[Patch Notes](patch.md) can be found here
+- [Patch Notes](patch.md) can be found here
 
 ## Features
 v2 coming soon. adds **SO** much more
