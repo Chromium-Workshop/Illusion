@@ -13,6 +13,9 @@ v2 coming soon. adds **SO** much more
 $ git clone https://github.com/chromium-workshop/illusion
 $ cd illusion
 $ npm install
+# This is the best way to install games im fixing i swear, for right now im sorry)
+$ cd node_modules/ultraviolet-static/public
+$ git clone https://github.com/binbashbanana/gfiles
 $ npm start # Port Started On 5000
 ```
 
