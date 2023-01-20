@@ -8,6 +8,7 @@ COPY . /app
 WORKDIR /app
 
 RUN npm install
+RUN cd node_modules/ultraviolet/static/public
 RUN git clone https://github.com/binbashbanana/gfiles
 
 # build final
