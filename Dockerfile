@@ -3,13 +3,13 @@ FROM docker.io/node AS builder
 
 RUN apt update
 RUN apt install git
-RUN cd node_modules/ultraviolet-static/public
-RUN git clone https://github.com/binbashbanana/gfiles
 
 COPY . /app
 WORKDIR /app
 
 RUN npm install
+RUN git clone https://github.com/binbashbanana/gfiles
+RUN cd node_modules/ultraviolet-static/public
 
 # build final
 FROM gcr.io/distroless/nodejs:16
