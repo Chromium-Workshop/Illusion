@@ -9,7 +9,6 @@ WORKDIR /app
 
 RUN npm install
 RUN git clone https://github.com/binbashbanana/gfiles
-RUN cd node_modules/ultraviolet-static/public
 
 # build final
 FROM gcr.io/distroless/nodejs:16
