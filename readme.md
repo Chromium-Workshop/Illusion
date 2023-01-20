@@ -1,5 +1,6 @@
 # Illusion
-Offical CW Unblocker
+- Offical CW Unblocker
+[Patch Notes](patch.md) can be found here
 
 ## Features
 v2 coming soon. adds **SO** much more
@@ -18,9 +19,6 @@ $ cd node_modules/ultraviolet-static/public
 $ git clone https://github.com/binbashbanana/gfiles
 $ npm start # Port Started On 5000
 ```
-
-## Patchnotes
-[Patch Notes](patch.md) can be found here
 
 ## V2 Feature List
 - Custom Themes
