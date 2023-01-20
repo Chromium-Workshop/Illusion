@@ -19,6 +19,9 @@ $ git clone https://github.com/binbashbanana/gfiles
 $ npm start # Port Started On 5000
 ```
 
+## Patchnotes
+[Patch Notes](patch.md) can be found here
+
 ## V2 Feature List
 - Custom Themes
 - Terminal & Blue Theme
